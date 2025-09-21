@@ -1,0 +1,6 @@
+gradio
+faiss-cpu
+numpy
+cryptography
+ollama
+langchain_mistralai
