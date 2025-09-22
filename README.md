@@ -1,6 +1,6 @@
-# Anomz Agentic AI Coder
+# Agentic AI Coder:: Anomz
 
-Anomz is a local AI coding environment designed to run on WSL2 with Ubuntu 22.04, utilizing free & open-source large language models (LLMs).
+"Anomz" is a local AI coding environment designed to run on WSL2 with Ubuntu 22.04, utilizing free & open-source large language models (LLMs).
 
 It provides a secure and controlled setup for code generation, debugging, testing, and benchmarking, without relying on external cloud APIs.
 
@@ -26,34 +26,42 @@ Currently integrated and tested:
 
 Ensure WSL2 with Ubuntu 22.04 is installed and configured.
 
-Clone this repository:
-```bash
-git clone https://github.com/Anom2/Anomz
+Clone this repository:git clone https://github.com/Anom2/Anomz
 cd Anomz
+code
+Code
 Run the installation script:
-code
-Bash
 ./install.sh
-Launch the application:
 code
-Bash
+Code
+Launch the application:
 python3 app.py
-
+code
+Code
 Access the Gradio interface through the link provided in the terminal.
-Example Use Cases
-Rapid prototyping with AI-generated code.
-Debugging assistance using error logs or code snippets.
-Evaluating and comparing multiple open-source models on the same task.
-Safe execution of untrusted code in isolated containers.
-Secure local memory for retaining project-specific context.
-Security
-The file memory_key.key is required for encrypted memory operations and must be kept private.
-Do not commit or share sensitive keys publicly.
-Use .gitignore or environment variables to manage secret keys securely.
-Roadmap
-Expanded model support.
-Improved Gradio interface with tabbed workflows and session history.
-Full Docker-based setup for simplified deployment.
-Optional GPU acceleration support.
-License
+
+## Example Use Cases
+
+-   Rapid prototyping with AI-generated code.
+-   Debugging assistance using error logs or code snippets.
+-   Evaluating and comparing multiple open-source models on the same task.
+-   Safe execution of untrusted code in isolated containers.
+-   Secure local memory for retaining project-specific context.
+
+## Security
+
+The file `memory_key.key` is required for encrypted memory operations and must be kept private.
+
+-   Do not commit or share sensitive keys publicly.
+-   Use `.gitignore` or environment variables to manage secret keys securely.
+
+## Roadmap
+
+-   Expanded model support.
+-   Improved Gradio interface with tabbed workflows and session history.
+-   Full Docker-based setup for simplified deployment.
+-   Optional GPU acceleration support.
+
+## License
+
 MIT License
